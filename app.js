@@ -13,3 +13,11 @@ modalOpenBtn.addEventListener("click", () => {
 modalCloseBtn.addEventListener("click", () => {
   overlay.classList.remove("open-modal");
 });
+
+document.onkeydown = (e) => {
+  if (e.key == "Escape") {
+    if (overlay.classList.contains("open-modal")) {
+      overlay.classList.remove("open-modal");
+    }
+  }
+};
