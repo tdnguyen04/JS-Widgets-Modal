@@ -1,4 +1,4 @@
-JS-Widgets is series of small projects that work on implementing popular design elements in real projects that may not come by easily encountering the first time
+JS-Widgets is series of small projects that work on implementing popular design elements in real projects that may not come by easily when I encounter the first time
 
 # Modal (window)
 
